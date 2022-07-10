@@ -174,7 +174,7 @@ class _RealTimeState extends State<RealTime>
       margin: const EdgeInsets.all(15),
       alignment: Alignment.centerLeft,
       child: const Text(
-        '실시간 검색어',
+        '실시간 검색어 성공한 것 같습니다.',
         style: TextStyle(
             fontFamily: 'ibm',
             fontWeight: FontWeight.bold,
