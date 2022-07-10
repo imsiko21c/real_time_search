@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:real_time_search/controller/appcontroller.dart';
 import 'package:real_time_search/pages/ranking_data/nate.dart';
-import 'package:real_time_search/pages/ranking_data/result%20copy.dart';
+import 'package:real_time_search/pages/ranking_data/result.dart';
 import 'package:real_time_search/pages/ranking_data/signal.dart';
 import 'package:real_time_search/pages/ranking_data/zoom.dart';
 import 'package:intl/intl.dart';
@@ -91,7 +91,7 @@ class _RealTimeState extends State<RealTime>
         child: TabBarView(
           controller: _tabController,
           children: [
-            ResultRanking2(),
+            ResultRanking(),
             const SignalRanking(),
             const NateRanking(),
             const ZoomRanking(),

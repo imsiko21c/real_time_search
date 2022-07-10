@@ -28,6 +28,14 @@ class ShowNews extends StatelessWidget {
               fontFamily: 'ibm'),
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Get.back();
+        },
+        child: const Icon(Icons.arrow_back),
+        backgroundColor: Colors.purple,
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: Obx(() {
         return WebView(
           initialUrl: controller.newsModel[0].link,
