@@ -127,8 +127,8 @@ class ResultRanking extends GetView<AppController> {
           ),
         );
       } else {
-        return Padding(
-          padding: const EdgeInsets.all(20.0),
+        return const Padding(
+          padding: EdgeInsets.all(20.0),
           child: Center(
             child: CircularProgressIndicator(),
           ),

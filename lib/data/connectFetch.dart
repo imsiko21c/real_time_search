@@ -3,6 +3,8 @@ import 'package:http/http.dart' as http;
 import 'package:real_time_search/model/news_model.dart';
 import 'package:real_time_search/model/newsimages_model.dart';
 
+import '../model/mainnews.dart';
+
 class ConnectFetch {
   ConnectFetch(this.query);
   String? query;

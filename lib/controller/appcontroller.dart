@@ -132,7 +132,6 @@ class AppController extends GetxController {
       newsImageModel.add(temps2[0]);
     }
     imageLoad(true);
-    print(newsImageModel.length);
   }
 
   Future<void> resultNewsLoading() async {
