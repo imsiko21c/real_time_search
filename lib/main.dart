@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:real_time_search/binddings/binddings.dart';
-import 'pages/app.dart';
+import 'package:real_time_search/pages/home.dart';
 
 void main() => runApp(const MyApp());
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       initialBinding: ControllerBindings(),
       initialRoute: '/',
       getPages: [
-        GetPage(name: '/', page: () => const App()),
+        GetPage(name: '/', page: () => RealTime()),
       ],
     );
   }

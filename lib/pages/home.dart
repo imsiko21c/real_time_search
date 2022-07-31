@@ -50,9 +50,9 @@ class _RealTimeState extends State<RealTime>
       child: TabBar(
         tabs: [
           tabUI('now_off', 50),
-          tabUI('signal_ci_off'),
           tabUI('nate_off'),
           tabUI('zoom_off', 50),
+          tabUI('signal_ci_off'),
         ],
         controller: _tabController,
         indicatorWeight: 3.0,
@@ -72,13 +72,13 @@ class _RealTimeState extends State<RealTime>
         return Colors.purple;
 
       case 1:
-        return Colors.green;
-
-      case 2:
         return const Color(0xffdf2330);
 
-      case 3:
+      case 2:
         return const Color(0xff1964e6);
+
+      case 3:
+        return Colors.green;
     }
     return Colors.white;
   }
@@ -92,9 +92,9 @@ class _RealTimeState extends State<RealTime>
           controller: _tabController,
           children: [
             ResultRanking(),
-            const SignalRanking(),
             const NateRanking(),
             const ZoomRanking(),
+            const SignalRanking(),
           ],
         ),
       );

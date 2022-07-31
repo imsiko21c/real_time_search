@@ -14,7 +14,7 @@ class ResultRanking extends GetView<AppController> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           const Text(
-            'NOW! 이슈 뉴스',
+            'NOW! 3사 공통 검색어',
             style: TextStyle(
                 fontFamily: 'ibm',
                 fontSize: 15.5,
